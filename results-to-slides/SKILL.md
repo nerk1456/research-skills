@@ -2,11 +2,26 @@
 name: results-to-slides
 description: Automate the grunt work of making research presentations — discovers experiments from git/output folders, collects images and metrics, and organizes them into slides. The research narrative and story are yours to tell; this skill just saves you from manually copying images and tabulating results. Creates a slide-by-slide script for user approval, then generates slide markdown and editable PPTX.
 argument-hint: [start_date end_date]
+disable-model-invocation: true
 ---
 
 # Results to Slides
 
 Automate the tedious parts of research presentations: discover experiments, collect images/metrics, organize into slides. You provide the story — this skill handles the image-copying, metric-tabulating grunt work. Output: slide markdown + editable PPTX.
+
+## Parallel Execution
+
+Maximize use of the Agent tool. Whenever you have 2+ independent tasks, launch parallel agents.
+
+- **Phase 1**: Launch agents in parallel to read CLAUDE.md, README.md, memory files, and other docs
+- **Phase 2 (biggest win)**: Launch separate agents for git log analysis, output folder discovery,
+  script/code discovery, and media discovery — these are fully independent
+- **Phase 3**: Launch agents in parallel to read different experiment scripts and output folders
+- **Phase 5+6**: Sequential (markdown must be written before converting)
+
+Do not serialize what can be parallelized. The researcher's time is valuable.
+
+---
 
 ## Important Paths
 
